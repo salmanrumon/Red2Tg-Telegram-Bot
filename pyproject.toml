@@ -1,0 +1,13 @@
+[project]
+name = "red2tg"
+version = "0.1.0"
+description = "Reddit to Telegram bot - monitors subreddits and forwards posts to Telegram"
+requires-python = ">=3.11"
+dependencies = [
+    "aiogram>=3.21.0",
+    "praw>=7.8.1",
+    "python-dotenv>=1.1.1",
+    "aiohttp>=3.8.0",
+    "asyncpraw>=7.8.1",
+    "trafilatura>=2.0.0",
+]
